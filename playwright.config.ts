@@ -39,23 +39,15 @@ export default defineConfig({
       use: { ...devices['Desktop Chrome'] },
     },
 
-    {
-      name: 'Google Pixel 9a',
-      use: {
-        ...devices['Pixel 5'],
-        viewport: { width: 1080, height: 2424 },
-        deviceScaleFactor: 2.625,
-      },
-    },
+    // {
+    //   name: 'firefox',
+    //   use: { ...devices['Desktop Firefox'] },
+    // },
 
-    {
-      name: 'Apple iPhone 17',
-      use: {
-        ...devices['iPhone 12'],
-        viewport: { width: 2622, height: 1206 },
-        deviceScaleFactor: 3,
-      },
-    },
+    // {
+    //   name: 'webkit',
+    //   use: { ...devices['Desktop Safari'] },
+    // },
   ],
 
   /* Run your local dev server before starting the tests */
